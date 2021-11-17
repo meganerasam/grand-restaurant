@@ -19,7 +19,7 @@ export const Nav = styled.nav`
   z-index: 100000;
   padding-right: 100px;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 768px) {
     background: transparent;
     padding: 1rem;
     margin-top: 2rem;
@@ -48,7 +48,7 @@ padding: 37px 15px 38px 15px;
   cursor: pointer;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   display: none !important;
 }`
   ;
@@ -76,7 +76,7 @@ border: 2px solid #cfa670;
   cursor: pointer;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   display: none !important;
 }
 `;
@@ -89,7 +89,7 @@ margin-right: 1rem;
 cursor: pointer;
 color: #fff;
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 450px) {
   display: none !important;
 }
 `;

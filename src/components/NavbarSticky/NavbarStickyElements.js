@@ -32,7 +32,7 @@ export const NavLinkSticky = styled(Link)`
     cursor: pointer;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 768px) {
     position: absolute;
     top: 10px;
     left: 25px;

@@ -13,11 +13,6 @@ import {
 } from './HeroElements';
 
 const Hero = ({ isOpen, toggle }) => {
-  /*const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };*/
 
   return (
     <HeroContainer>

@@ -28,16 +28,9 @@ export const HeroItems = styled.div`
   line-height: 1;
   font-weight: bold;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 768px) {
     width: 100%;
   }
-`;
-
-export const HeroH1BEFORE = styled.h1`
-  font-size: clamp(2.5rem, 10vw, 5rem);
-  margin-bottom: 1rem;
-  box-shadow: 3px 5px #cfa670;
-  letter-spacing: 3px;
 `;
 
 export const HeroTitleContainer = styled.div`

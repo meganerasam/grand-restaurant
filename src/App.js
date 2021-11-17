@@ -7,7 +7,8 @@ import { productData, productDataTwo } from './components/Products/data';
 import Feature from './components/Feature';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import NavbarSticky from './components/NavbarSticky';
+import Info from './components/Info';
+import Info2 from './components/Info2';
 
 function App() {
 
@@ -39,7 +40,8 @@ function App() {
       <GlobalStyle />
       <Navbar sticky={sticky} toggle={toggle} />
       <Hero toggle={toggle} isOpen={isOpen} />
-      <Products heading='Choose your favorite' data={productData} />
+      <Info />
+      <Info2 />
       <Feature />
       <Products heading='Sweet Treats for You' data={productDataTwo} />
       <Footer />

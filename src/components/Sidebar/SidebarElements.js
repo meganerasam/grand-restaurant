@@ -14,7 +14,7 @@ export const SidebarContainer = styled.aside`
   transition: 0.3s ease-in-out;
   right: ${({ isOpen }) => (isOpen ? '0' : '-1000px')};
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 768px) {
     width: 100%;
   }
 `;
@@ -40,7 +40,7 @@ export const SidebarMenu = styled.div`
   grid-template-rows: repeat(3, 80px);
   text-align: center;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     grid-template-rows: repeat(3, 60px);
   }
 `;
