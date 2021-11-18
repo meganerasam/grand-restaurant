@@ -17,25 +17,34 @@ export const ProductWrapper = styled.div`
 export const ProductCard = styled.div`
   margin: 0 2rem;
   line-height: 2;
-  width: 300px;
+  width: 200px;
+  background: #ececec;
+  position: relative;
+  margin-bottom: 2.5rem;
 `;
 
 export const ProductImg = styled.img`
-  height: 300px;
-  min-width: 300px;
+  height: 200px;
+  min-width: 200px;
   max-width: 100%;
-  box-shadow: 8px 8px #fdc500;
 `;
 
 export const ProductsHeading = styled.h1`
   font-size: clamp(2rem, 2.5vw, 3rem);
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 `;
 
 export const ProductTitle = styled.h2`
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  color: #cfa670;
+  line-height: 1.3;
+  margin-bottom: 1.2rem !important;
 `;
 
 export const ProductInfo = styled.div`
@@ -45,15 +54,24 @@ export const ProductInfo = styled.div`
   align-items: center;
   padding: 2rem;
   text-align: center;
+  font-family: 'Lato', sans-serif;
+  
 `;
 
 export const ProductDesc = styled.p`
-  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 24px;
+  font-family: 'Lato', sans-serif;
+  color: #1c2237;
+  margin-bottom: 2.8rem
 `;
 
 export const ProductPrice = styled.p`
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  bottom: 0;
 `;
 
 export const ProductButton = styled.button`

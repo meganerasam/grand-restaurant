@@ -43,7 +43,7 @@ function App() {
       <Info />
       <Info2 />
       <Feature />
-      <Products heading='Sweet Treats for You' data={productDataTwo} />
+      <Products heading='Menu' data={productDataTwo} />
       <Footer />
     </Router>
   );

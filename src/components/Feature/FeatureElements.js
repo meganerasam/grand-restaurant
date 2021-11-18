@@ -21,6 +21,7 @@ export const FeatureContainer = styled.div`
     font-size: clamp(3rem, 5vw, 5rem);
     font-family: 'Lato', sans-serif;
     margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
   }
 
   p {
